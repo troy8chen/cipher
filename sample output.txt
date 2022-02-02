@@ -1,0 +1,219 @@
+*****  RUN 1: *****
+
+test constructor : cc
+Encrypted: /LSSVqe^VYSKf
+Decrypted: Hello, world!
+
+test constructor : cc2
+Encrypted: {:AAD_SLDGA9T
+Decrypted: Hello, world!
+
+*** testing copy constructor and overloaded assignment ***
+test copy constructor : cc3(cc2)
+Encrypted: {:AAD_SLDGA9T
+Decrypted: Hello, world!
+
+test overloaded assignment operator : cc2 = cc
+Encrypted: /LSSVqe^VYSKf
+Decrypted: Hello, world!
+
+*** printing cc, cc2, and cc3 ***
+test constructor : cc
+Encrypted: /LSSVqe^VYSKf
+Decrypted: Hello, world!
+
+test constructor : cc2
+Encrypted: /LSSVqe^VYSKf
+Decrypted: Hello, world!
+
+test constructor : cc3
+Encrypted: {:AAD_SLDGA9T
+Decrypted: Hello, world!
+
+*** testing comparators ***
+cc == c3 is false
+cc < c3 is false
+cc > c3 is true
+
+*** testing add ***
+cc2 = cc + cc3
+Encrypted: b!((+F:3+.(~;
+Decrypted: Hello, world!
+
+*** testing increment ***
+test increment (postfix) : cc4 = cc++
+Encrypted: 0MTTWrf_WZTLg
+Decrypted: Hello, world!
+
+result of cc4 after postfix
+Encrypted: /LSSVqe^VYSKf
+Decrypted: Hello, world!
+
+test increment (prefix) : cc4 = ++cc
+Encrypted: 1NUUXsg`X[UMh
+Decrypted: Hello, world!
+
+result of cc4 after prefix
+Encrypted: 1NUUXsg`X[UMh
+Decrypted: Hello, world!
+
+test increment (postfix) : cc4 = cc2++
+Encrypted: c")),G;4,/)!<
+Decrypted: Hello, world!
+
+result of cc4 after postfix
+Encrypted: b!((+F:3+.(~;
+Decrypted: Hello, world!
+
+test increment (prefix) : cc4 = ++cc2
+Encrypted: d#**-H<5-0*"=
+Decrypted: Hello, world!
+
+result of cc4 after prefix
+Encrypted: d#**-H<5-0*"=
+Decrypted: Hello, world!
+
+test increment (postfix) : cc4 = cc3++
+Encrypted: |;BBE`TMEHB:U
+Decrypted: Hello, world!
+
+result of cc4 after postfix
+Encrypted: {:AAD_SLDGA9T
+Decrypted: Hello, world!
+
+test increment (prefix) : cc4 = ++cc3
+Encrypted: }<CCFaUNFIC;V
+Decrypted: Hello, world!
+
+result of cc4 after prefix
+Encrypted: }<CCFaUNFIC;V
+Decrypted: Hello, world!
+
+----------------------------
+
+*** testing list ***
+
+test list : add cc, cc2, cc3
+
+test print list[0] : 
+Encrypted: 1NUUXsg`X[UMh
+Decrypted: Hello, world!
+
+test print list[1] : 
+Encrypted: d#**-H<5-0*"=
+Decrypted: Hello, world!
+
+test print list[2] : 
+Encrypted: }<CCFaUNFIC;V
+Decrypted: Hello, world!
+
+*****  RUN 2: *****
+
+test constructor : cc
+Encrypted: Pmttw4(!wztl)
+Decrypted: Hello, world!
+
+test constructor : cc2
+Encrypted: 3PWWZuibZ]WOj
+Decrypted: Hello, world!
+
+*** testing copy constructor and overloaded assignment ***
+test copy constructor : cc3(cc2)
+Encrypted: 3PWWZuibZ]WOj
+Decrypted: Hello, world!
+
+test overloaded assignment operator : cc2 = cc
+Encrypted: Pmttw4(!wztl)
+Decrypted: Hello, world!
+
+*** printing cc, cc2, and cc3 ***
+test constructor : cc
+Encrypted: Pmttw4(!wztl)
+Decrypted: Hello, world!
+
+test constructor : cc2
+Encrypted: Pmttw4(!wztl)
+Decrypted: Hello, world!
+
+test constructor : cc3
+Encrypted: 3PWWZuibZ]WOj
+Decrypted: Hello, world!
+
+*** testing comparators ***
+cc == c3 is false
+cc < c3 is true
+cc > c3 is false
+
+*** testing add ***
+cc2 = cc + cc3
+Encrypted: ;X__b}qjbe_Wr
+Decrypted: Hello, world!
+
+*** testing increment ***
+test increment (postfix) : cc4 = cc++
+Encrypted: Qnuux5)"x{um*
+Decrypted: Hello, world!
+
+result of cc4 after postfix
+Encrypted: Pmttw4(!wztl)
+Decrypted: Hello, world!
+
+test increment (prefix) : cc4 = ++cc
+Encrypted: Rovvy6*#y|vn+
+Decrypted: Hello, world!
+
+result of cc4 after prefix
+Encrypted: Rovvy6*#y|vn+
+Decrypted: Hello, world!
+
+test increment (postfix) : cc4 = cc2++
+Encrypted: <Y``c~rkcf`Xs
+Decrypted: Hello, world!
+
+result of cc4 after postfix
+Encrypted: ;X__b}qjbe_Wr
+Decrypted: Hello, world!
+
+test increment (prefix) : cc4 = ++cc2
+Encrypted: =Zaad!sldgaYt
+Decrypted: Hello, world!
+
+result of cc4 after prefix
+Encrypted: =Zaad!sldgaYt
+Decrypted: Hello, world!
+
+test increment (postfix) : cc4 = cc3++
+Encrypted: 4QXX[vjc[^XPk
+Decrypted: Hello, world!
+
+result of cc4 after postfix
+Encrypted: 3PWWZuibZ]WOj
+Decrypted: Hello, world!
+
+test increment (prefix) : cc4 = ++cc3
+Encrypted: 5RYY\wkd\_YQl
+Decrypted: Hello, world!
+
+result of cc4 after prefix
+Encrypted: 5RYY\wkd\_YQl
+Decrypted: Hello, world!
+
+----------------------------
+
+*** testing list ***
+
+test list : add cc, cc2, cc3
+
+test print list[0] : 
+Encrypted: Rovvy6*#y|vn+
+Decrypted: Hello, world!
+
+test print list[1] : 
+Encrypted: =Zaad!sldgaYt
+Decrypted: Hello, world!
+
+test print list[2] : 
+Encrypted: 5RYY\wkd\_YQl
+Decrypted: Hello, world!
+
+
